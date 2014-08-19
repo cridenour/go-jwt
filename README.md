@@ -45,3 +45,9 @@ func main() {
     fmt.Printf("Key: iss Value: %s\n", decoded["iss"]) 
 }
 ```
+
+Next Steps
+----------
+
+* Add support for optional expriation check
+* Clean up main code for better errors, no panics.
